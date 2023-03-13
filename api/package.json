@@ -1,0 +1,21 @@
+{
+  "name": "newsapp",
+  "version": "1.0.0",
+  "description": "using the news api",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evans",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
